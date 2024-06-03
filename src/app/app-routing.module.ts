@@ -9,8 +9,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'todos', component: TodosComponent },
   { path: 'consigna', component: ConsignaComponent },
-  { path: '**', component: HomeComponent },
   { path: 'todos/:id', component: TodoDetailComponent },
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({

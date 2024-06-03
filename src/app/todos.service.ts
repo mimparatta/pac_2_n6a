@@ -15,6 +15,7 @@ export class TodosService {
   }
 
   getById(id: number): Observable<Todo> {
-    return this._httpClient.get<Todo>(`${TodoEndpoints.GET_BY_ID}/${id}`);
+    const endpoint = TodoEndpoints.GET_BY_ID.replace('{id}', id.toString());
+    return this._httpClient.get<Todo>(endpoint);
   }
 }
