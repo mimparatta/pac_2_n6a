@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ConsignaComponent } from './consigna/consigna.component';
 import { HttpClientModule } from '@angular/common/http';
-import { TodosService } from './todos.service';
+import { TodosService } from '../services/todos.service';
 import { TodosComponent } from './todos/todos.component';
 import { FormsModule } from '@angular/forms';
 import { TodoDetailComponent } from './todo-detail/todo-detail.component';

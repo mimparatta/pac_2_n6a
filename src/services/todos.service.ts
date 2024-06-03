@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Todo } from './models/todo';
-import { TodoEndpoints } from './networking/endpoints';
+import { Todo } from '../app/models/todo';
+import { TodoEndpoints } from '../app/networking/endpoints';
 
 @Injectable({
   providedIn: 'root',
